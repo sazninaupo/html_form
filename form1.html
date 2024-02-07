@@ -6,16 +6,37 @@
     <title>html_form</title>
 </head>
 <body>
-    <h2>HTML Forms</h2>
+   <form action="">
+    <label for="name">Name:</label>
+    <input type="text" name="fullname" required><br> <br>
+    <label for="roll">Roll:</label>
+    <input type="number" name="roll" required> <br> <br>
+    <label for="department">Department</label>
+    <input type="checkbox" name="cst">Computer Science And Technololgy
+    <input type="checkbox" name="eee">Electrical And Electronic Engineering
+    <label for="semester">Semester</label>
+    <select name="semester" >
+      <option value="fsem">1st Semester </option>
+      <option value="fsem">1st Semester </option>
+      <option value="fsem">1st Semester </option>
+      <option value="fsem">1st Semester </option>
+    </select><br> <br>
+    <label for="gender">Gender</label>
+    <input type="radio" name="gender">Male <input type="radio" name="gender">Female <br> <br>
+<label for="email">Email</label>
+<input type="email" name="email" required> <br> <br>
+<label for="password">Password</label>
+<input type="password" name="password" required> <br> <br>
+<label for="picture">Picture</label>
+<input type="file" name="picture"> <br> <br>
+<label for="date">Date of Birth</label>
+<input type="date" name="date"> <br> <br>
+<label for="Ask your Question"></label>
+<textarea name="Question"  cols="30" rows="10"></textarea>
+<input type="reset"><input type="submit" value="Send">
 
-<form action="/action_page.php">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname" value="Upoma"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname" value="Saznina"><br><br>
-  <input type="submit" value="Submit">
-</form> 
 
-<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+   </form>
 </body>
 </html>
